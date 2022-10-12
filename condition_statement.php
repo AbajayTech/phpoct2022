@@ -44,6 +44,21 @@ if ($day=="Monday"){
 }else{
     echo"Do not wear clothes!";
 }
+echo"<br>";
+$Temperature="60";
+if ($Temperature<=10){
+    echo"It is very cold,dress heavy clothing!";
+}elseif($Temperature>10 and $Temperature<=20){
+    echo"It is chilly,dress warmly!";
+}elseif($Temperature>20 and $Temperature<=30){
+    echo"It is warm,put light clothing on!";
+}elseif($Temperature>30 and $Temperature<=45){
+    echo"It is hot outside,check your clothing!";
+}elseif ($Temperature>45 and $Temperature<=200){
+    echo"It is extremely hot outside,stay hydrated!";
+}else{
+    echo"Nothing to show!";
+}
 
 echo"<br>";
 //switch statement
