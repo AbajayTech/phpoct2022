@@ -1,5 +1,5 @@
 <?php
-$marks=-20;
+$marks=50;
 //if statement
 if ($marks==50){
     echo"It is true";
@@ -45,7 +45,7 @@ if ($day=="Monday"){
     echo"Do not wear clothes!";
 }
 echo"<br>";
-$Temperature="60";
+$Temperature="21";
 if ($Temperature<=10){
     echo"It is very cold,dress heavy clothing!";
 }elseif($Temperature>10 and $Temperature<=20){
@@ -62,7 +62,7 @@ if ($Temperature<=10){
 
 echo"<br>";
 //switch statement
-$day="Sunday";
+$day="Thursday";
 switch ($day){
     case"Monday":
         echo"Wear official,Go to Work!";
@@ -73,7 +73,7 @@ switch ($day){
     case"Wednesday":
         echo"Wear official,Go to Work!";
         break;
-    case"Thursaday":
+    case"Thursday":
         echo"Wear Smart Casual,Go to Work!";
         break;
     case"Friday":

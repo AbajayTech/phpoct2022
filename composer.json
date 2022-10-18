@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/phpoct2022",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Admin",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
